@@ -1,0 +1,26 @@
+
+*{margin:0;padding:0;box-sizing:border-box;font-family:Tahoma,sans-serif}
+body{background:#fffaf4;color:#333}
+header{background:linear-gradient(90deg,#ffc3e6,#fff1a1);color:#fff;padding:25px;text-align:center}
+nav{display:flex;justify-content:center;flex-wrap:wrap;background:#f89fdb}
+nav a{color:#fff;text-decoration:none;padding:15px 20px;font-weight:bold}
+nav a:hover{background:#f1a5d8}
+.hero{padding:70px 20px;text-align:center;background:linear-gradient(#fff3e0,#ffe0b2)}
+.hero h1{font-size:42px}
+.hero p{margin:15px 0;font-size:20px}
+.btn{display:inline-block;background:#f1aad6;color:#fff;padding:12px 24px;border-radius:30px;text-decoration:none}
+section{padding:40px 20px}
+h2{text-align:center;color:#f3a5d9;margin-bottom:25px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:#fff;border-radius:15px;overflow:hidden;box-shadow:0 5px 15px rgba(0, 0, 0, 0.15);transition:.3s}
+.card:hover{transform:translateY(-8px)}
+.card img{width:100%;height:170px;object-fit:cover}
+.card h3{padding:10px}
+.card p{padding:0 10px 10px}
+.card button{margin:10px;background:#df92b2;color:#fff;border:none;padding:10px 15px;border-radius:8px;cursor:pointer}
+.offer{background:#fff3cd;border-right:6px solid rgb(235, 219, 132);padding:20px;border-radius:10px;text-align:center}
+form{max-width:500px;margin:auto}
+input,textarea{width:100%;padding:12px;margin:10px 0;border:1px solid #ccc;border-radius:8px}
+button{background:#e7aadd;color:#fff;border:none;padding:12px;border-radius:8px;cursor:pointer}
+.whatsapp{position:fixed;bottom:20px;left:20px;background:#25D366;color:white;padding:15px;border-radius:50%;text-decoration:none;font-size:24px}
+footer{background:#333;color:#fff;text-align:center;padding:20px;margin-top:40px}
